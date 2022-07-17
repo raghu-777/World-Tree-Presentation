@@ -1,0 +1,268 @@
+@font-face {
+    font-family: Rokit;
+    src: url("fonts/rokkitt-bold-webfont.ttf");
+}
+
+@font-face {
+    font-family: body;
+    src: url("fonts/quattrocentosans-regular-webfont.ttf");
+}
+
+*{
+    font-family: body;
+
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:active{
+    text-decoration: none;
+    color: red;
+}
+
+a:hover{
+    text-decoration: none;
+    color: gold;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+.Header {
+    display: flex;
+    background-image: url("images/bg-header.jpg");
+    padding: 30px;
+    margin-top: 32px;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: auto;
+    height: 50px;
+    text-align: center;
+}
+
+.Header-part1 {
+    display: inline-block;
+    flex: 1;
+    margin-left: 140px;
+    text-align: center;
+    width: 50%;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.Header-part2 {
+    flex: 2;
+    margin-top: 20px;
+    margin-right: -204px;
+    width: 50%;
+}
+
+.Header-part3{
+    position: relative;
+    margin-right: 236px;
+    border: 4px solid aqua;
+    background-color: #8fae00;
+    color: aqua;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 13px 20px;
+    margin-top: -30px;
+    margin-bottom: 29px;
+}
+
+ul a {
+    flex: 1.5;
+    color: aliceblue;
+    text-align: center;
+}
+
+[src="images/tree-planting.jpg"],[src *= "paper"], [src *= "blog"]{
+    height: 128px;
+    width: 169px;
+}
+
+[src *= "thumb1"], [src *= "thumb2"], [src *= "thumb3"], [src *= "thumb4"], [src *= "thumb5"], [src *= "thumb6"]
+{
+    width: 60px;
+    height: 50px;
+}
+
+.Program-heading{
+    padding-top: 56px;
+    margin-left: 200px;
+    margin-bottom: -122px;
+}
+
+.programs-section{
+    display: flex;
+    width: 90%;
+    background-image: url("images/bg-body.jpg");
+    margin-left: 70px;
+}
+
+.section1{
+    width: 15%;
+    margin-top: 120px;
+    margin-left: 132px;
+}
+
+.section2{
+    width: 40%;
+    margin-top: 150px;
+}
+
+.section3{
+    width: 15%;
+    margin-top: 50px;
+    margin-left: 10px;
+    
+}
+
+.section2-content{
+    font-size: 13px;
+}
+
+.tree-planting-text,.paper-recycling-text, .earth-appreciation-text{
+    background-color: rgb(204 106 0);
+    color: aliceblue;
+    margin-top: -7px;
+    margin-right: 15px;
+    text-align: center;
+    padding: 2px;
+}
+
+.paper-recycling, .earth-appreciation{
+    margin-top: 10px;
+}
+
+.categories, .blog-posts, .archives, .Images{
+    font-size: 12px;
+    background-color: rgb(235 235 235);
+    padding: 7px;
+    margin-top: 5px;
+}
+
+.first-row, .second-row, .third-row{
+    text-align: center;
+}
+
+[src *="facebook"],
+[src *="twitter"],
+[src *="gmail"] {
+    width: 20px;
+    height: 20px;
+}
+
+.Footer1 {
+    display: flex;
+    font-size: 13px;
+    background-image: url("images/bg-body.jpg");
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.Footer1-part1 {
+    width: 25%;
+    margin-left: 186px;
+
+}
+
+.Footer1-part2 {
+    width: 50%;
+
+}
+
+.Footer1-part3 {
+    width: 25%;
+    margin-right: 50px;
+
+}
+
+.phone {
+    display: flex;
+}
+
+.email-info {
+    display: flex;
+}
+
+.address {
+    display: flex;
+}
+
+.facebook {
+    display: flex;
+    margin-top: -18px;
+}
+
+.twitter {
+    display: flex;
+    margin-top: -18px;
+}
+
+.gmail {
+    display: flex;
+    margin-top: -18px;
+}
+
+
+.phone-icon {
+    padding: 15px
+}
+
+.email-icon {
+    padding: 15px;
+}
+
+.address-icon {
+    padding: 15px;
+}
+
+.facebook-logo {
+    padding: 15px;
+}
+
+.twitter-logo {
+    padding: 15px;
+}
+
+.gmail-logo {
+    padding: 15px;
+}
+
+.email {
+    padding: 15px;
+    margin-top: -18px;
+}
+
+.Footer2 {
+    display: flex;
+    font-size: 13px;
+    background-image: url("images/bg-body.jpg");
+    margin-left: 173px;
+    margin-right: 30px;
+}
+
+.footer-link-items {
+    display: flex;
+}
+
+.footer-links {
+    flex: 2;
+}
+
+ol a {
+    list-style-type: none;
+}
+
+.Copyrights {
+    flex: 1;
+    margin-right: 124px;
+}
